@@ -2,9 +2,9 @@
 
 # 16n
 
-![](images/16n1.jpg)
+![](./images/16n1.jpg)
 
-![](images/16n2.jpg)
+![](./images/16n2.jpg)
 
 _pictures by Brendon Cassidy_
 
