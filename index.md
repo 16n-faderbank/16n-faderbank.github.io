@@ -52,15 +52,9 @@ Yes.
 
 So far: Brian Crabtree, Sean Hellfritsch, Tom Armitage, Brendon Cassidy.
 
-This is a community project that emerges from the [Lines](https://llllllll.co) forum. [Brian Crabtree](brian) and [Sean Hellfritsch](sean) made the first version. [Tom Armitage](tom) redesigned the electronics, primarily adding CV and MIDI outs; Tom and [Brendon Cassidy](bpc) extended the firmware; Brendon's contributions to the I2C code must be noted in particular.
+This is a community project that emerges from the [Lines](https://llllllll.co) forum. [Brian Crabtree](https://nnnnnnnn.co) and [Sean Hellfritsch](http://coolmaritime.org) made the first version. [Tom Armitage](https://tomarmitage.com) redesigned the electronics, primarily adding CV and MIDI outs; Tom and [Brendon Cassidy](http://bpcmusic.com) extended the firmware; Brendon's contributions to the I2C code must be noted in particular.
 
 ## Where can I find out more?
 
-There's not a mailing list or anything yet. There is, however, [this sprawling thread on lines](sprawl), where you can follow the story so far.
-
-[brian]: https://nnnnnnnn.co/
-[sean]: http://coolmaritime.org/
-[tom]: https://tomarmitage.com
-[brendon]: http://bpcmusic.com
-[sprawl]: https://llllllll.co/t/interest-check-faderbank-run/9920
+There's not a mailing list or anything yet. There is, however, [this sprawling thread on lines](https://llllllll.co/t/interest-check-faderbank-run/9920), where you can follow the story so far.
 
