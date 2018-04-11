@@ -34,9 +34,13 @@ When it’s ready, the plan is that you’ll be able to buy a built 16n. It’ll
 
 Once the open-source files are available, you could also build your own if you wanted - or make your own modifications.
 
+
+
 ## How much is it going to be?
 
 We don't know yet. We have an idea, but we're not going to share a price until we know it's the price you'll pay.
+
+
 
 ## Can you give me some examples of what people are doing with it?
 Yes.
