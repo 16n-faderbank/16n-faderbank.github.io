@@ -52,7 +52,7 @@ Yes.
 
 So far: Brian Crabtree, Sean Hellfritsch, Tom Armitage, Brendon Cassidy.
 
-This is a community project that emerges from the [Lines](https://llllllll.co) forum. [Brian Crabtree](brian) and [Sean Hellfritsch](sean) made a first version. [Tom Armitage](tom) redesigned the electronics; Tom and [Brendon Cassidy](bpc) extended the firmware.
+This is a community project that emerges from the [Lines](https://llllllll.co) forum. [Brian Crabtree](brian) and [Sean Hellfritsch](sean) made the first version. [Tom Armitage](tom) redesigned the electronics, primarily adding CV and MIDI outs; Tom and [Brendon Cassidy](bpc) extended the firmware; Brendon's contributions to the I2C code must be noted in particular.
 
 ## Where can I find out more?
 
