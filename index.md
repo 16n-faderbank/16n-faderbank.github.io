@@ -1,5 +1,3 @@
-
-
 # 16n
 
 ![](./images/16n1.jpg)
@@ -13,6 +11,7 @@ _pictures by Brendon Cassidy_
 This is 16n. It is a bank of 16 faders. It is designed for controlling electronic musical instruments and devices.
 
 ## What does it do?
+
 You move faders on it. It emits output. 
 
 It has a number of outputs:
@@ -28,21 +27,19 @@ All outputs are sent **simultaneously**.
 16n will eventually be open source: code, schematics, etc.
 
 ## How do I get one?
+
 16n is not finished yet.
 
 When it’s ready, the plan is that you’ll be able to buy a built 16n. It’ll be totally assembled and ready to use, with all the firmware installed. It will have an aluminium top and bottom, and be a hair smaller than the prototypes you may have seen. This is likely - but not for sure - to be a limited run.
 
 Once the open-source files are available, you could also build your own if you wanted - or make your own modifications.
 
-
-
 ## How much is it going to be?
 
 We don't know yet. We have an idea, but we're not going to share a price until we know it's the price you'll pay.
 
-
-
 ## Can you give me some examples of what people are doing with it?
+
 Yes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gEjbc87Cu9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
