@@ -34,6 +34,10 @@ When it’s ready, the plan is that you’ll be able to buy a built 16n. It’ll
 
 Once the open-source files are available, you could also build your own if you wanted - or make your own modifications.
 
+## But I have seen it on the internet, on somebody's Instagram or similar?
+
+You may well have done. A few people - Tom, Sean, Brendon, and some friends and colleagues - have prototypes. The versions they are using are very much prototypes. The final version may not look the same or be made of the same materials.
+
 ## How much is it going to be?
 
 We don't know yet. We have an idea, but we're not going to share a price until we know it's the price you'll pay.
