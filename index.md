@@ -18,7 +18,7 @@ It has a number of outputs:
 * it sends MIDI data over USB; by default, a different continuous controller for each fader.
 * it sends MIDI data over a 3.5mm stereo (TRS) jack, which you can break out using  any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
 * it sends 0-5V CV out of sixteen jacks, one for each fader.
-* it sends data over I2C, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301, or as a bus device for a monomer Teletype
+* it sends data over I2C, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301, or as a bus device for a monome Teletype
 
 All outputs are sent **simultaneously**.
 
