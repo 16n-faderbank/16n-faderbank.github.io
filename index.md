@@ -17,30 +17,26 @@ You move faders on it. It emits output.
 It has a number of outputs:
 * it sends MIDI data over USB; by default, a different continuous controller for each fader.
 * it sends MIDI data over a 3.5mm stereo (TRS) jack, which you can break out using  any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
-* it sends 0-5V CV out of sixteen jacks, one for each fader.
-* it sends data over I2C, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301, or as a bus device for a monome Teletype
+* it sends 0-5V CV out of sixteen jacks, one for each fader. (Well, almost 5V, dependent on your USB power supply)
+* it sends data over I2C, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301 or monome Ansible, or as a bus device for a monome Teletype
 
 All outputs are sent **simultaneously**.
 
-16n is built around a Teensy microcontroller. You’ll be able to customise the software yourself, if you’d like.
+16n is built around a Teensy microcontroller, and is written in Arduino-style C++; you can edit it all through the Arduino IDE. You can easily configure options via a config file, or write your own firmware, if you prefer.
 
-16n will eventually be open source: code, schematics, etc.
+16n is open source: the code is MIT licensed; the hardware is Creative Commons
 
 ## How do I get one?
 
-16n is not finished yet.
+Everything you need to make one can be found at [the github repository](TODO).
 
-When it’s ready, the plan is that you’ll be able to buy a built 16n. It’ll be totally assembled and ready to use, with all the firmware installed. It will have an aluminium top and bottom, and be a hair smaller than the prototypes you may have seen. This is likely - but not for sure - to be a limited run.
+That contains schematics files, Gerber files, original EAGLE cad documents, CAD files for top/bottom panels, and the firmware code. It contains links to BOMs and a concise build guide.
 
-Once the open-source files are available, you could also build your own if you wanted - or make your own modifications.
+If that sounds like gibberish to you, you might want to try to find a friendly music-DIY type to build one for you. Right now, the only way to get a 16n is to make it yourself.
 
-## But I have seen it on the internet, on somebody's Instagram or similar?
+## How much does it cost?
 
-You may well have done. A few people - Tom, Sean, Brendon, and some friends and colleagues - have prototypes. The versions they are using are very much prototypes. The final version may not look the same or be made of the same materials.
-
-## How much is it going to be?
-
-We don't know yet. We have an idea, but we're not going to share a price until we know it's the price you'll pay.
+The bill of materials varies depending on how many you're making at once. The circuit boards work out at around \$240 for 3 from OSHPark, but can go down to around \$50 for 5 from Chinese manufacturers. Including plastic panels, fader caps, and so on, you should be able to build one for under $200.
 
 ## Can you give me some examples of what people are doing with it?
 
@@ -60,5 +56,5 @@ This is a community project that emerges from the [Lines](https://llllllll.co) f
 
 ## Where can I find out more?
 
-There's not a mailing list or anything yet. There is, however, [this sprawling thread on lines](https://llllllll.co/t/interest-check-faderbank-run/9920), where you can follow the story so far.
+There's not a mailing list or anything. There is, however, [this sprawling thread on lines](https://llllllll.co/t/interest-check-faderbank-run/9920), where you can follow the story so far.
 
