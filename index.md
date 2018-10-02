@@ -28,13 +28,15 @@ All outputs are sent **simultaneously**.
 
 ## How do I get one?
 
-16n is not finished yet.
+16n is nearly finished!
 
-When it’s ready, the plan is that you’ll be able to buy a built 16n. It’ll be totally assembled and ready to use, with all the firmware installed. It will have an aluminium top and bottom, and be a hair smaller than the prototypes you may have seen. This is likely - but not for sure - to be a limited run.
+The **first release** will be entirely open source: all the files to make the case, circuit boards, and firmware, for your own version. You'll have to source all the parts yourself. If you know what an "Ornament and Crime" synth module is: it's a bit like that. And of course, you'll be able to make your own modifications and customisations.
 
-Once the open-source files are available, you could also build your own if you wanted - or make your own modifications.
+There's a plan that one day you’ll be able to buy a built 16n. It’ll be totally assembled and ready to use, with all the firmware installed. It will have an aluminium top and bottom, and be a hair smaller than the prototypes you may have seen. This is likely - but not for sure - to be a limited run. 
 
-## But I have seen it on the internet, on somebody's Instagram or similar?
+There may be other options in the future.
+
+## But I have seen it on the internet, on somebody's Instagram or on Youtube?
 
 You may well have done. A few people - Tom, Sean, Brendon, and some friends and colleagues - have prototypes. The versions they are using are very much prototypes. The final version may not look the same or be made of the same materials.
 
@@ -45,6 +47,8 @@ We don't know yet. We have an idea, but we're not going to share a price until w
 ## Can you give me some examples of what people are doing with it?
 
 Yes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/edriUxDgTsg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gEjbc87Cu9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
