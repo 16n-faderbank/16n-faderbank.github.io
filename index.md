@@ -1,14 +1,14 @@
 # 16n
 
-![](./images/16n1.jpg)
+![](./images/16n3.jpg)
 
-![](./images/16n2.jpg)
+![](./images/16n4.jpg)
 
-_pictures by Brendon Cassidy_
+_pictures by Tom Armitage_
 
 ## What is that thing?
 
-This is 16n. It is a bank of 16 faders. It is designed for controlling electronic musical instruments and devices.
+This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices.
 
 ## What does it do?
 
@@ -28,15 +28,32 @@ All outputs are sent **simultaneously**.
 
 ## How do I get one?
 
-Everything you need to make one can be found at [the github repository](TODO).
+Right now: you make one yourself. Everything you need to make one can be found at [the github repository](TODO).
 
-That contains schematics files, Gerber files, original EAGLE cad documents, CAD files for top/bottom panels, and the firmware code. It contains links to BOMs and a concise build guide.
+That means you'll need to:
+
+- make PCBs for it. The repository includes the orignal CAD files, and gerber files, to get PCBs manufactured.
+- source parts. The repository contains a Bill of Materials, and links to online parts.
+- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. All the firmware is in the repository.
+- assemble the board. The repository contains instructions to build it.
+- make a panel for it. The repository contains CAD files for the top/bottom panels, so you can, for instance, lasercut your own.
+
+Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: it's a bit like that. And of course, you're be able to make your own modifications and customisations.
 
 If that sounds like gibberish to you, you might want to try to find a friendly music-DIY type to build one for you. Right now, the only way to get a 16n is to make it yourself.
 
+There may be other options in the future.
+
 ## How much does it cost?
 
-The bill of materials varies depending on how many you're making at once. The circuit boards work out at around \$240 for 3 from OSHPark, but can go down to around \$50 for 5 from Chinese manufacturers. Including plastic panels, fader caps, and so on, you should be able to build one for under $200.
+"It depends".
+
+The bill of materials varies depending on how many you're making at once. For instance, the circuit boards work out at around \$240 for 3 from OSHPark, but can go down to around \$50 for 5 from Chinese manufacturers. The 60mm Alps faders come down substantially in price when you buy them in bulk. And the panel price will vary depending on how you make it - lasercut plastic or ply will be very different to metal, for instance.
+
+## But I have seen it already on the internet, on somebody's Instagram or on Youtube?
+
+You may well have done. A few people - Tom, Sean, Brendon, and some friends and colleagues - have prototypes. The versions they are using are very much prototypes. The final version may not look the same or be made of the same materials.
+
 
 ## Can you give me some examples of what people are doing with it?
 
@@ -47,6 +64,22 @@ Yes.
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BhU-AfnAmHB/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.10185185185185% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BhU-AfnAmHB/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">16n fader bank controlling the ER301 directly via i2c communication || all sounds ER301 || personally I feel this is where music making is headed, a hybrid playground between the old &amp; new, exciting times 🙌 - . . #16n #er301 #orthogonaldevices #eurorack #modularsynth #teensy #arduino #synth #electronicmusic #music #sound #fm #fmsynthesis #glitch</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/tomhallsonics/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Tom Hall</a> (@tomhallsonics) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-04-08T23:22:44+00:00">Apr 8, 2018 at 4:22pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gaxW51dK7Dk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+## I have some problems with my 16n
+
+Sorry to hear that. 16n is an open-source product, so there's limited capacity for us to support it. But: you should raise an [Issue on the 16n github](TODO). That way the community can also see the issue, and we can see if we can get it resolved.
+
+## I have ideas for changes / an improvement I wish to share / a version I wish to make
+
+Awesome.
+
+If you have an idea for a change... perhaps raise it as an Issue with a 'suggestion' label?
+
+If you have an improvement you wish to share, a Pull Request against the main repository would be ideal; we'll see if we can't fold it in somehow.
+
+If you have your own version: that's awesome. Remember that the hardware is licensed CC-BY-SA, so you must correctly credit everyone involved in the initial version, and also share your own changes with the similar license. So you can't make a fork of 16n that you don't open-source yourself.
 
 ## Who's making this?
 
