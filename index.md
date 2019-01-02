@@ -1,30 +1,30 @@
 # 16n
 
-![](./images/16n3.jpg)
+![](./images/faderbank.jpg)
 
-![](./images/16n4.jpg)
-
-_pictures by Tom Armitage_
+_picture by Tom Armitage_
 
 ## What is that thing?
 
-This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices.
+This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices. Everything you need to make one is at [its Github repository.](https://github.com/infovore/16n)
 
 ## What does it do?
 
 You move faders on it. It emits output. 
 
 It has a number of outputs:
-* it sends MIDI data over USB; by default, a different continuous controller for each fader.
-* it sends MIDI data over a 3.5mm stereo (TRS) jack, which you can break out using  any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
-* it sends 0-5V CV out of sixteen jacks, one for each fader. (Well, almost 5V, dependent on your USB power supply)
-* it sends data over I2C, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301 or monome Ansible, or as a bus device for a monome Teletype
+* it sends **MIDI data over USB**; by default, a different continuous controller for each fader.
+* it sends **MIDI data over a 3.5mm stereo (TRS) jack**, which you can break out using any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
+* it sends **0-5V CV** out of sixteen jacks, one for each fader. (Well, almost 5V, dependent on your USB power supply)
+* it sends data over **I2C**, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301 or monome Ansible, or as a bus device for a monome Teletype
 
 All outputs are sent **simultaneously**.
 
 16n is built around a Teensy microcontroller, and is written in Arduino-style C++; you can edit it all through the Arduino IDE. You can easily configure options via a config file, or write your own firmware, if you prefer.
 
-16n is open source: the code is MIT licensed; the hardware is Creative Commons
+16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons.
+
+The user guide is in the [main README](https://github.com/infovore/16n/blob/master/README.md).
 
 ## How do I get one?
 
@@ -32,11 +32,11 @@ Right now: you make one yourself. Everything you need to make one can be found a
 
 That means you'll need to:
 
-- make PCBs for it. The repository includes the orignal CAD files, and gerber files, to get PCBs manufactured.
+- make PCBs for it. The repository includes [the orignal CAD files, and gerber files, to get PCBs manufactured.](https://github.com/infovore/16n/tree/master/electronics)
 - source parts. The repository contains a Bill of Materials, and links to online parts.
-- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. All the firmware is in the repository.
-- assemble the board. The repository contains instructions to build it.
-- make a panel for it. The repository contains CAD files for the top/bottom panels, so you can, for instance, lasercut your own.
+- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. [All the firmware is in the repository.](https://github.com/infovore/16n/tree/master/firmware/_16n_faderbank_firmware)
+- assemble the board. The repository contains [instructions to build it.](https://github.com/infovore/16n/tree/master/build)
+- make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/infovore/16n/tree/master/panel), so you can, for instance, lasercut your own.
 
 Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: it's a bit like that. And of course, you're be able to make your own modifications and customisations.
 
@@ -50,14 +50,14 @@ There may be other options in the future.
 
 The bill of materials varies depending on how many you're making at once. For instance, the circuit boards work out at around \$240 for 3 from OSHPark, but can go down to around \$50 for 5 from Chinese manufacturers. The 60mm Alps faders come down substantially in price when you buy them in bulk. And the panel price will vary depending on how you make it - lasercut plastic or ply will be very different to metal, for instance.
 
-## But I have seen it already on the internet, on somebody's Instagram or on Youtube?
-
-You may well have done. A few people - Tom, Sean, Brendon, and some friends and colleagues - have prototypes. The versions they are using are very much prototypes. The final version may not look the same or be made of the same materials.
-
 
 ## Can you give me some examples of what people are doing with it?
 
 Yes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/edriUxDgTsg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gEjbc87Cu9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -69,7 +69,11 @@ Yes.
 
 ## I have some problems with my 16n
 
-Sorry to hear that. 16n is an open-source product, so there's limited capacity for us to support it. But: you should raise an [Issue on the 16n github](TODO). That way the community can also see the issue, and we can see if we can get it resolved.
+Sorry to hear that. 16n is an open-source product, so there's limited capacity for us to support it. But: you should raise an [Issue on the 16n github](https://github.com/infovore/16n/issues). That way the community can also see the issue, and we can see if we can get it resolved. Note that 16n is open source; support is offered entirely on a voluntary basis.
+
+## I'd like to test my 16n
+
+Great. You can use [the browser test page](16ntest.html) in Google Chrome to test the USB-MIDI output - useful for quick debugging.
 
 ## I have ideas for changes / an improvement I wish to share / a version I wish to make
 
@@ -77,7 +81,7 @@ Awesome.
 
 If you have an idea for a change... perhaps raise it as an Issue with a 'suggestion' label?
 
-If you have an improvement you wish to share, a Pull Request against the main repository would be ideal; we'll see if we can't fold it in somehow.
+If you have an improvement you wish to share, [a Pull Request against the main repository](https://github.com/infovore/16n/pulls) would be ideal; we'll see if we can't fold it in somehow.
 
 If you have your own version: that's awesome. Remember that the hardware is licensed CC-BY-SA, so you must correctly credit everyone involved in the initial version, and also share your own changes with the similar license. So you can't make a fork of 16n that you don't open-source yourself.
 
