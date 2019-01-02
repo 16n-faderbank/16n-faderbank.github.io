@@ -45,7 +45,7 @@ Right now: you make one yourself. Everything you need to make one can be found a
 
 That means you'll need to:
 
-- make PCBs for it. The repository includes [the orignal CAD files, and gerber files, to get PCBs manufactured.](https://github.com/16n-faderbank/16n/tree/master/electronics)
+- make PCBs for it. The repository includes [the original CAD files, and gerber files, to get PCBs manufactured.](https://github.com/16n-faderbank/16n/tree/master/electronics)
 - source parts. The repository contains a Bill of Materials, and links to online parts.
 - flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. [All the firmware is in the repository.](https://github.com/16n-faderbank/16n/tree/master/firmware/_16n_faderbank_firmware)
 - assemble the board. The repository contains [instructions to build it.](https://github.com/16n-faderbank/16n/tree/master/build)
