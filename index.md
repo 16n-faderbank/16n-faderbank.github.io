@@ -6,7 +6,7 @@ _picture by Tom Armitage_
 
 ## What is that thing?
 
-This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices. Everything you need to make one is at [its Github repository.](https://github.com/infovore/16n)
+This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices. Everything you need to make one is at [its Github repository.](https://github.com/16n-faderbank/16n)
 
 ## What does it do?
 
@@ -24,7 +24,7 @@ All outputs are sent **simultaneously**.
 
 16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons.
 
-The user guide is in the [main README](https://github.com/infovore/16n/blob/master/README.md).
+The user guide is in the [main README](https://github.com/16n-faderbank/16n/blob/master/README.md).
 
 
 ## Can you give me some examples of what people are doing with it?
@@ -45,11 +45,11 @@ Right now: you make one yourself. Everything you need to make one can be found a
 
 That means you'll need to:
 
-- make PCBs for it. The repository includes [the orignal CAD files, and gerber files, to get PCBs manufactured.](https://github.com/infovore/16n/tree/master/electronics)
+- make PCBs for it. The repository includes [the orignal CAD files, and gerber files, to get PCBs manufactured.](https://github.com/16n-faderbank/16n/tree/master/electronics)
 - source parts. The repository contains a Bill of Materials, and links to online parts.
-- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. [All the firmware is in the repository.](https://github.com/infovore/16n/tree/master/firmware/_16n_faderbank_firmware)
-- assemble the board. The repository contains [instructions to build it.](https://github.com/infovore/16n/tree/master/build)
-- make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/infovore/16n/tree/master/panel), so you can, for instance, lasercut your own.
+- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. [All the firmware is in the repository.](https://github.com/16n-faderbank/16n/tree/master/firmware/_16n_faderbank_firmware)
+- assemble the board. The repository contains [instructions to build it.](https://github.com/16n-faderbank/16n/tree/master/build)
+- make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/16n-faderbank/16n/tree/master/panel), so you can, for instance, lasercut your own.
 
 Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: it's a bit like that. And of course, you're be able to make your own modifications and customisations.
 
@@ -65,7 +65,7 @@ The bill of materials varies depending on how many you're making at once. For in
 
 ## I have some problems with my 16n
 
-Sorry to hear that. 16n is an open-source product, so there's limited capacity for us to support it. But: you should raise an [Issue on the 16n github](https://github.com/infovore/16n/issues). That way the community can also see the issue, and we can see if we can get it resolved. Note that 16n is open source; support is offered entirely on a voluntary basis.
+Sorry to hear that. 16n is an open-source product, so there's limited capacity for us to support it. But: you should raise an [Issue on the 16n github](https://github.com/16n-faderbank/16n/issues). That way the community can also see the issue, and we can see if we can get it resolved. Note that 16n is open source; support is offered entirely on a voluntary basis.
 
 ## I'd like to test my 16n
 
@@ -77,7 +77,7 @@ Awesome.
 
 If you have an idea for a change... perhaps raise it as an Issue with a 'suggestion' label?
 
-If you have an improvement you wish to share, [a Pull Request against the main repository](https://github.com/infovore/16n/pulls) would be ideal; we'll see if we can't fold it in somehow.
+If you have an improvement you wish to share, [a Pull Request against the main repository](https://github.com/16n-faderbank/16n/pulls) would be ideal; we'll see if we can't fold it in somehow.
 
 If you have your own version: that's awesome. Remember that the hardware is licensed CC-BY-SA, so you must correctly credit everyone involved in the initial version, and also share your own changes with the similar license. So you can't make a fork of 16n that you don't open-source yourself.
 
