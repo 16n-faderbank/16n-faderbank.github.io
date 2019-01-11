@@ -91,3 +91,6 @@ This is a community project that emerges from the [Lines](https://llllllll.co) f
 
 There's not a mailing list or anything. There is, however, [this thread on lines](https://llllllll.co/t/16n-is-a-bank-of-faders-release-thread-current-version-1-31/18620/3) to support the official release. And there's also [this sprawling thread on lines](https://llllllll.co/t/interest-check-faderbank-run/9920), where you can follow the story of its creation.
 
+## Talking about 16n
+
+I recommend `#16nfaderbank` as hashtag for talking about 16n, for _reasons_. (The more obvious hashtag already appears to have less savoury connotations.)
