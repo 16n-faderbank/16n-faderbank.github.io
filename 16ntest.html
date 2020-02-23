@@ -59,6 +59,7 @@
           var index = ccOrNote-32;
             document.querySelectorAll('.slider')[index].style.height = data + 1 + "px"; 
             document.querySelectorAll('.slider')[index].style.top = 129-data + "px"; 
+            document.querySelectorAll('.slider .num')[index].innerText = data;
 
         }
       }
@@ -107,6 +108,14 @@
       display: block;
       background: #444;
     }
+
+    .num {
+      /* color: white; */
+      font-weight: bold;
+      text-align: center;
+      font-size: 10px;
+      margin-top: -15px;
+    }
   </style>
 </head>
 <body>
@@ -115,23 +124,22 @@
   <div id="midi">
     <p style="width: 640px">Connect your 16n via USB _or_ hardware MIDI, not both. You should see sixteen sliders that move independently when your 16n is connected. This assumes the default midi settings of CCs 32-47.</p>
     <div id="backdrop">
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='slider'></div>
-      <div class='clear'></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
+      <div class='slider'><div class='num'></div></div>
     </div>
     <div id="labels">
       <div>1</div>
