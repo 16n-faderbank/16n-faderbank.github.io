@@ -4,13 +4,17 @@
 
 _picture by Tom Armitage_
 
+## UPDATE: v2.0.0 is out now!
+
+> Firmware v2 makes it easier than ever to configure your 16n. [Find out more at the lines thread](TKTKTK). Upgrading to Firmware v2.0 can be done from any computer you can install Teensy Loader on. Full instructions are [on the wiki](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions)
+
 ## What is that thing?
 
 This is 16n. It is a bank of 16 60mm faders. It is designed for controlling electronic musical instruments and devices. Everything you need to make one is at [its Github repository.](https://github.com/16n-faderbank/16n)
 
 ## What does it do?
 
-You move faders on it. It emits output. 
+You move faders. 16n emits output. 
 
 It has a number of outputs:
 * it sends **MIDI data over USB**; by default, a different continuous controller for each fader.
@@ -20,11 +24,15 @@ It has a number of outputs:
 
 All outputs are sent **simultaneously**.
 
-16n is built around a Teensy microcontroller, and is written in Arduino-style C++; you can edit it all through the Arduino IDE. You can easily configure options via a config file, or write your own firmware, if you prefer.
+16n is built around a Teensy microcontroller, and is written in Arduino-style C++.
 
-16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons.
+As of version 2.0.0, you can configure your 16n through a web-based UI. Here it is in action:
 
-The user guide is in the [main README](https://github.com/16n-faderbank/16n/blob/master/README.md).
+VIDEO
+
+16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons. You're free to make derivatives, or hack on the firmware yourself.
+
+The user guide is on the [Github wiki for the project](https://github.com/16n-faderbank/16n/wiki), which is the primary source of documentation.
 
 
 ## Can you give me some examples of what people are doing with it?
@@ -39,6 +47,13 @@ Yes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gaxW51dK7Dk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+And, I _think_, that is one that Richie Hawtin has:
+
+
+<div class='image-hang center'>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frichiehawtin%2Fposts%2F10162243179820074%3A0&width=500" width="500" height="689" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
+
 ## How do I get one?
 
 Right now: you make one yourself. Everything you need to make one can be found at [the github repository](TODO).
@@ -47,11 +62,11 @@ That means you'll need to:
 
 - make PCBs for it. The repository includes [the original CAD files, and gerber files, to get PCBs manufactured.](https://github.com/16n-faderbank/16n/tree/master/electronics)
 - source parts. The repository contains a Bill of Materials, and links to online parts.
-- flash the Teensy microcontroller with the firmware, using the Arduino IDE and Teensyduino. [All the firmware is in the repository.](https://github.com/16n-faderbank/16n/tree/master/firmware/_16n_faderbank_firmware)
-- assemble the board. The repository contains [instructions to build it.](https://github.com/16n-faderbank/16n/tree/master/build)
+- flash the Teensy microcontroller with the firmware, using Teensy Loader. [Here is how](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions). Alternatively, [all the firmware source code is in the repository.](https://github.com/16n-faderbank/16n/tree/master/firmware/_16n_faderbank_firmware)
+- assemble the board. The documentation contains [instructions to build it.](https://github.com/16n-faderbank/16n/wiki/Build-guide)
 - make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/16n-faderbank/16n/tree/master/panel), so you can, for instance, lasercut your own.
 
-Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: it's a bit like that. And of course, you're be able to make your own modifications and customisations.
+Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: this project is similar in terms of how much is done for you, and how much you have to do. And of course, you're be able to make your own modifications and customisations.
 
 If that sounds like gibberish to you, you might want to try to find a friendly music-DIY type to build one for you. Right now, the only way to get a 16n is to make it yourself.
 
@@ -69,7 +84,9 @@ Sorry to hear that. 16n is an open-source product, so there's limited capacity f
 
 ## I'd like to test my 16n
 
-Great. You can use [the browser test page](16ntest.html) in Google Chrome to test the USB-MIDI output - useful for quick debugging.
+The [editor](/editor) will let you see all USB faders in motion, and let you reconfigure it.
+
+If you're running firmware 1.34 or earlier, you can use [the browser test page](/16ntest.html) in Google Chrome to test the USB-MIDI output - useful for quick debugging.
 
 ## I have ideas for changes / an improvement I wish to share / a version I wish to make
 
