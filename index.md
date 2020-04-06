@@ -6,7 +6,7 @@ _picture by Tom Armitage_
 
 ## UPDATE: v2.0.0 is out now!
 
-> Firmware v2 makes it easier than ever to configure your 16n. [Find out more at the lines thread](TKTKTK). Upgrading to Firmware v2.0 can be done from any computer you can install Teensy Loader on. Full instructions are [on the wiki](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions)
+> Firmware v2 makes it easier than ever to configure your 16n. [Find out more at the lines thread](https://llllllll.co/t/16n-firmware-2-0-0-release-and-official-thread/30976). Upgrading to Firmware v2.0.0 can be done from any computer you can install Teensy Loader on. Full instructions are [on the wiki](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions). And the firmware release [can be found here](https://github.com/16n-faderbank/16n/releases/tag/v2.0.0)
 
 ## What is that thing?
 
@@ -28,7 +28,7 @@ All outputs are sent **simultaneously**.
 
 As of version 2.0.0, you can configure your 16n through a web-based UI. Here it is in action:
 
-VIDEO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3n2_3b55qWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons. You're free to make derivatives, or hack on the firmware yourself.
 
