@@ -4,9 +4,9 @@
 
 _picture by Tom Armitage_
 
-## UPDATE: v2.0.0 is out now!
+## UPDATE: v2.0.1 is out now!
 
-> Firmware v2 makes it easier than ever to configure your 16n. [Find out more at the lines thread](https://llllllll.co/t/16n-firmware-2-0-0-release-and-official-thread/30976). Upgrading to Firmware v2.0.0 can be done from any computer you can install Teensy Loader on. Full instructions are [on the wiki](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions). And the firmware release [can be found here](https://github.com/16n-faderbank/16n/releases/tag/v2.0.0)
+> Firmware v2 makes it easier than ever to configure your 16n. [Find out more at the lines thread](https://llllllll.co/t/16n-firmware-2-0-0-release-and-official-thread/30976). Upgrading to Firmware v2.0.0 can be done from any computer you can install Teensy Loader on. Full instructions are [on the wiki](https://github.com/16n-faderbank/16n/wiki/Firmware:-installation-instructions). And the firmware release [can be found here](https://github.com/16n-faderbank/16n/releases/tag/v2.0.1)
 
 ## What is that thing?
 
