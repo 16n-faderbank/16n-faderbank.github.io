@@ -2,4 +2,5 @@ theme: jekyll-theme-cayman
 title: 16n
 description: a bank of sixteen faders
 exclude:
+  - README.md
   - update_editor.sh
