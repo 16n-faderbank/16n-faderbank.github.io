@@ -56,7 +56,7 @@ And, I _think_, that is one that Richie Hawtin has:
 
 ## How do I get one?
 
-Right now: you make one yourself. Everything you need to make one can be found at [the github repository](TODO).
+Right now: you make one yourself. Everything you need to make one can be found at [the github repository](https://github.com/16n-faderbank/16n).
 
 That means you'll need to:
 
