@@ -4,3 +4,6 @@ description: a bank of sixteen faders
 exclude:
   - README.md
   - update_editor.sh
+include:
+  - _*.js
+  - _*.css
