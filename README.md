@@ -10,5 +10,5 @@ From the website directory, on your own machine, run
     ./update_editor.sh
 
 This will checkout the latest version of the editor, build it, and stick it in
-the `/editor` subdirectory. You will need `git` and `npm` installed for this to
+the `/editor` subdirectory. You will need `git` and `pnpm` installed for this to
 work.
