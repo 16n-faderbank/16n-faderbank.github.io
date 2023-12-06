@@ -66,7 +66,7 @@ That means you'll need to:
 - assemble the board. The documentation contains [instructions to build it.](https://github.com/16n-faderbank/16n/wiki/Build-guide)
 - make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/16n-faderbank/16n/tree/master/panel), so you can, for instance, lasercut your own.
 
-Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: this project is similar in terms of how much is done for you, and how much you have to do. And of course, you're be able to make your own modifications and customisations.
+Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: this project is similar in terms of how much is done for you, and how much you have to do. And of course, you're able to make your own modifications and customisations.
 
 If that sounds like gibberish to you, you might want to try to find a friendly music-DIY type to build one for you. Right now, the only way to get a 16n is to make it yourself.
 
