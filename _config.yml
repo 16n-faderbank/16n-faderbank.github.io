@@ -7,3 +7,5 @@ exclude:
 include:
   - _*.js
   - _*.css
+github:
+  is_project_page: false
