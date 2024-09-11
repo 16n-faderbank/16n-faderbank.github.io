@@ -14,13 +14,14 @@ This is 16n. It is a bank of 16 60mm faders. It is designed for controlling elec
 
 ## What does it do?
 
-You move faders. 16n emits output. 
+You move faders. 16n emits output.
 
 It has a number of outputs:
-* it sends **MIDI data over USB**; by default, a different continuous controller for each fader.
-* it sends **MIDI data over a 3.5mm stereo (TRS) jack**, which you can break out using any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
-* it sends **0-5V CV** out of sixteen jacks, one for each fader. (Well, almost 5V, dependent on your USB power supply)
-* it sends data over **I2C**, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301 or monome Ansible, or as a bus device for a monome Teletype
+
+- it sends **MIDI data over USB**; by default, a different continuous controller for each fader.
+- it sends **MIDI data over a 3.5mm stereo (TRS) jack**, which you can break out using any available converter. There is a switch to toggle between the two standards for this (so it’ll work with both Korg/Makenoise and Arturia/Novation products and converters directly). This can be the same CCs as the MIDI over USB, or different ones, if you’d like.
+- it sends **0-5V CV** out of sixteen jacks, one for each fader. (Well, almost 5V, dependent on your USB power supply)
+- it sends data over **I2C**, using a TRS jack: either as a master device, which could connect directly to (e.g.) an ER-301 or monome Ansible, or as a bus device for a monome Teletype
 
 All outputs are sent **simultaneously**.
 
@@ -33,7 +34,6 @@ As of version 2.0.0, you can configure your 16n through a web-based UI. Here it 
 16n is **entirely open source**: the code is MIT licensed; the hardware is Creative Commons. You're free to make derivatives, or hack on the firmware yourself.
 
 The user guide is on the [Github wiki for the project](https://github.com/16n-faderbank/16n/wiki), which is the primary source of documentation.
-
 
 ## Can you give me some examples of what people are doing with it?
 
@@ -48,7 +48,6 @@ Yes.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gaxW51dK7Dk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 And, I _think_, that is one that Richie Hawtin has:
-
 
 <div class='image-hang center'>
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frichiehawtin%2Fposts%2F10162243179820074%3A0&width=500" width="500" height="689" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
@@ -66,7 +65,7 @@ That means you'll need to:
 - assemble the board. The documentation contains [instructions to build it.](https://github.com/16n-faderbank/16n/wiki/Build-guide)
 - make a panel for it. The repository contains [CAD files for the top/bottom panels](https://github.com/16n-faderbank/16n/tree/master/panel), so you can, for instance, lasercut your own.
 
-Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: this project is similar in terms of how much is done for you, and how much you have to do. And of course, you're be able to make your own modifications and customisations.
+Everything is entirely open source. If you know what an "Ornament and Crime" synth module is: this project is similar in terms of how much is done for you, and how much you have to do. And of course, you're able to make your own modifications and customisations.
 
 If that sounds like gibberish to you, you might want to try to find a friendly music-DIY type to build one for you. Right now, the only way to get a 16n is to make it yourself.
 
@@ -110,4 +109,4 @@ There's not a mailing list or anything. There is, however, [this thread on lines
 
 ## Talking about 16n
 
-I recommend `#16nfaderbank` as hashtag for talking about 16n, for _reasons_. (The more obvious hashtag already appears to have less savoury connotations.)
+I recommend `#16nfaderbank` as a hashtag for talking about 16n, for _reasons_. (The more obvious hashtag already appears to have less savoury connotations.)
