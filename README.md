@@ -15,6 +15,10 @@ And then, to run a local server with the site on:
 
 This will spin up a server at port 4000 on `localhost`. Note that it's not hot-reloading; if you update a markdown file, you'll need to reload your browser.
 
+## Website design
+
+I've gotten rid of the theme, and am just using some simple custom CSS, built around [PicoCSS](https://picocss.com/docs), which seems to work well.
+
 ## Updating the editor
 
 From the website directory, on your own machine, run

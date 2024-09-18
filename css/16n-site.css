@@ -1,0 +1,20 @@
+.grid.cards > a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.grid.cards > a > article {
+  /* transform: scale(1); */
+  border: 1px solid #eee;
+  /* transition: transform 0.1s ease; */
+}
+
+.grid.cards > a:hover > article {
+  border: 1px solid #aaa;
+  /* transform: scale(1.02); */
+}
+
+.grid.cards header h3 {
+  margin: 0;
+}
