@@ -1,5 +1,7 @@
 title: 16n
 description: a bank of sixteen faders
+plugins:
+  - jekyll-seo-tag
 exclude:
   - README.md
   - update_editor.sh
