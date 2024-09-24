@@ -1,5 +1,5 @@
 title: 16n
-description: a bank of sixteen faders
+description: an opensource midi/cv controller project
 plugins:
   - jekyll-seo-tag
 exclude:
