@@ -7,33 +7,36 @@
     <meta name="viewport" content="width=device-width" />
     
 		<link href="./app/immutable/assets/0.QwRbwDCm.css" rel="stylesheet">
-		<link href="./app/immutable/assets/2.CMFO6GOF.css" rel="stylesheet">
-		<link rel="modulepreload" href="./app/immutable/entry/start.D-BGgF92.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/xGtL4Ss-.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/B1lGLh6A.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/CWcPemJM.js">
-		<link rel="modulepreload" href="./app/immutable/entry/app.C_ak9cDg.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/CWj6FrbW.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/CfbtRNmO.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/0.DzDv1BGr.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/2.Dh-2f71A.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/BDgrmPJC.js"><!--[--><!--]--><title>16n Controller Editor</title>
+		<link href="./app/immutable/assets/2.DwRZAOH8.css" rel="stylesheet">
+		<link rel="modulepreload" href="./app/immutable/entry/start.DQnX2f8V.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/CmwLlyRh.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/BMBdryiS.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/nRz6v4Js.js">
+		<link rel="modulepreload" href="./app/immutable/entry/app.Csq66mzj.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/YvS_kjnO.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/oeoWt5f_.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/CwhNYe84.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/BcAHQKI6.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/0.BsJK-8KD.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/Dd_ejtv8.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/2.CSbZwE1t.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/BAeA32VS.js"><!--12qhfyh--><!----><title>16n Controller Editor</title>
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div style="display: contents"><!--[--><!--[--><!----><!----><main class="svelte-kpoxps"><div id="head" class="svelte-kpoxps"><h1 class="svelte-kpoxps">16n configuration tool</h1> <!--[!--><!--]--><!----></div> <div id="inner" class="svelte-kpoxps"><!--[!--><p class="notice svelte-kpoxps">WebMIDI could not be enabled. Please use a web browser that supports
-        WebMIDI, such as Google Chrome.</p><!--]--></div> <div id="foot" class="svelte-kpoxps"><div class="foot-left svelte-kpoxps">16n Editor v2.1.2</div></div></main><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+    <div style="display: contents"><!--[--><!--[--><!----><!----><main class="svelte-1uha8ag"><div id="head" class="svelte-1uha8ag"><h1 class="svelte-1uha8ag">16n configuration tool</h1> <!--[!--><!--]--><!----></div> <div id="inner" class="svelte-1uha8ag"><!--[!--><p class="notice svelte-1uha8ag">WebMIDI could not be enabled. Please use a web browser that supports
+        WebMIDI, such as Google Chrome.</p><!--]--></div> <div id="foot" class="svelte-1uha8ag"><div class="foot-left svelte-1uha8ag">16n Editor v2.1.3</div></div></main><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1iqy0eo = {
+					__sveltekit_1i98djp = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./app/immutable/entry/start.D-BGgF92.js"),
-						import("./app/immutable/entry/app.C_ak9cDg.js")
+						import("./app/immutable/entry/start.DQnX2f8V.js"),
+						import("./app/immutable/entry/app.Csq66mzj.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -42,6 +45,12 @@
 							error: null
 						});
 					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
 				}
 			</script>
 		</div>

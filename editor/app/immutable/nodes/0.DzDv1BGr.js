@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import{i as n,j as a,k as l,s,l as i,$ as c}from"../chunks/CWcPemJM.js";const p=!0,_=Object.freeze(Object.defineProperty({__proto__:null,prerender:p},Symbol.toStringTag,{value:"Module"}));function f(t,o){var e=n();a(d=>{c.title="16n Controller Editor"});var r=l(e);s(r,()=>o.children),i(t,e)}export{f as component,_ as universal};
