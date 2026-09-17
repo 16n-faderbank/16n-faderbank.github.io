@@ -5,38 +5,37 @@
     <link rel="icon" href="./favicon.png" />
     <link href="./css/fa-all.min.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width" />
-    
+    <link href="./app/immutable/entry/start.Dy3X7Q59.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/BE5-u8_5.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/Ce2jPov9.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/DlhtYQRv.js" rel="modulepreload">
+		<link href="./app/immutable/entry/app.ByKxBjlo.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/D0vWMBNK.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/CJ3v6Wyb.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/COylZSd-.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/DgOxbMH5.js" rel="modulepreload">
+		<link href="./app/immutable/nodes/0.B7amg0Zq.js" rel="modulepreload">
+		<link href="./app/immutable/chunks/SYeNq-wK.js" rel="modulepreload">
+		<link href="./app/immutable/nodes/2.VeYrfLBN.js" rel="modulepreload">
+		<!--12qhfyh--><!----><title>16n Controller Editor</title>
 		<link href="./app/immutable/assets/0.QwRbwDCm.css" rel="stylesheet">
 		<link href="./app/immutable/assets/2.CUa5CYcr.css" rel="stylesheet">
-		<link rel="modulepreload" href="./app/immutable/entry/start.BRs6B8r-.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/CvhrdWh9.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/k7wxh8Bn.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/D7pqf3Q-.js">
-		<link rel="modulepreload" href="./app/immutable/entry/app.EGtb_gTN.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DlNvXeKl.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DW0Gg0vD.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/HtH4iGyc.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DMTpjxDt.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/0.BQxjvG7E.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/aPht0ZZB.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/2.DnCfvZjT.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DnFkPTWD.js"><!--12qhfyh--><!----><title>16n Controller Editor</title>
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div style="display: contents"><!--[--><!--[--><!----><!----><main class="svelte-1uha8ag"><div id="head" class="svelte-1uha8ag"><h1 class="svelte-1uha8ag">16n configuration tool</h1> <!--[!--><!--]--><!----></div> <div id="inner" class="svelte-1uha8ag"><!--[!--><p class="notice svelte-1uha8ag">WebMIDI could not be enabled. Please use a web browser that supports
-        WebMIDI, such as Google Chrome.</p><!--]--></div> <div id="foot" class="svelte-1uha8ag"><div class="foot-left svelte-1uha8ag">16n Editor v2.2.0</div></div></main><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+    <div style="display: contents"><!--[--><!--[0--><!--[--><!--[--><main class="svelte-1uha8ag"><div id="head" class="svelte-1uha8ag"><h1 class="svelte-1uha8ag">16n configuration tool</h1> <!--[-1--><!--]--><!----></div> <div id="inner" class="svelte-1uha8ag"><!--[-1--><p class="notice svelte-1uha8ag">WebMIDI could not be enabled. Please use a web browser that supports
+        WebMIDI, such as Google Chrome.</p><!--]--></div> <div id="foot" class="svelte-1uha8ag"><div class="foot-left svelte-1uha8ag">16n Editor v2.3.0</div></div></main><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1i624fz = {
+					__sveltekit_14jz8d3 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./app/immutable/entry/start.BRs6B8r-.js"),
-						import("./app/immutable/entry/app.EGtb_gTN.js")
+						import("./app/immutable/entry/start.Dy3X7Q59.js"),
+						import("./app/immutable/entry/app.ByKxBjlo.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -47,8 +46,14 @@
 					});
 
 					if ('serviceWorker' in navigator) {
+						const script_url = './service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
 						addEventListener('load', function () {
-							navigator.serviceWorker.register('./service-worker.js');
+							navigator.serviceWorker.register(sanitised);
 						});
 					}
 				}
